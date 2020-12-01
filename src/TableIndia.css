@@ -1,0 +1,25 @@
+.tableIndia {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+table {
+    width: 100%;
+  }
+/* .tableIndia tr {
+  display: flex;
+  justify-content: space-between;
+} */
+.tableIndia th{
+    background-color: aquamarine;
+    padding: 0.8rem;
+    text-align: start;
+}
+.tableIndia td {
+  padding: 0.5rem;
+  text-align: left;
+}
+.tableIndia tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}

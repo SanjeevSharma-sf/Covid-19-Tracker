@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.app__header {
+  display: flex; /*used for structuring the websites */
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.app__left {
+  flex: 90%;
+}
+.app__stats {
+  display: flex; /*set everything in div in a row*/
+  justify-content: space-between; /* this will create a space between the boxes*/
+}
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
